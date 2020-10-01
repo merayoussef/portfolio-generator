@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-var message = 'Hello Node!';
-
-var sum = 5 + 3;
-
-console.log(message);
-console.log(sum);
-=======
 const fs = require('fs');
 const generatePage = require('./src/page-template.js');
 const inquirer = require('inquirer');
@@ -150,5 +142,4 @@ promptUser()
   })
   .catch(err => {
     console.log(err);
-  });
->>>>>>> develop
+});
